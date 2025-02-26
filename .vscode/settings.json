@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Practice.sln"
+    "dotnet.defaultSolution": "SoulAdventure.sln"
 }
