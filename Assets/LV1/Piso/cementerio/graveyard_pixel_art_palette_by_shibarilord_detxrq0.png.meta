@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: eeaf6bd6384961c4e99f47573786abf8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1661132290576441539
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_0
+  - first:
+      213: -7625360854989367596
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_1
+  - first:
+      213: 6213074451979269328
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_2
+  - first:
+      213: -6475835929235221694
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_3
+  - first:
+      213: -2577250956525436093
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_4
+  - first:
+      213: -9035133427006369173
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_5
+  - first:
+      213: -7976806663596271294
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_6
+  - first:
+      213: 2041458304102064582
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_7
+  - first:
+      213: 3324897590321079629
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_8
+  - first:
+      213: -4481378185391999530
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_9
+  - first:
+      213: 1197108825707514190
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_10
+  - first:
+      213: -7510114144598068765
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_11
+  - first:
+      213: -4960876490222295728
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_12
+  - first:
+      213: -5595780206430370845
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_13
+  - first:
+      213: 3654155202931672372
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_14
+  - first:
+      213: 1193552558492072024
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_15
+  - first:
+      213: 1031668214483594385
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_16
+  - first:
+      213: -9136193524422673901
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_17
+  - first:
+      213: -4893569023432093885
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_18
+  - first:
+      213: 7451596959434075459
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_19
+  - first:
+      213: 476851066143038935
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_20
+  - first:
+      213: -3432655566542787180
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_21
+  - first:
+      213: -4917810221638342463
+    second: graveyard_pixel_art_palette_by_shibarilord_detxrq0_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 383
+        width: 82
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c06db864078d0710800000000000000
+      internalID: 1661132290576441539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 383
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6903a04b64d2690800000000000000
+      internalID: -7625360854989367596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 383
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d47749bb46493650800000000000000
+      internalID: 6213074451979269328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 387
+        width: 70
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243193668853126a0800000000000000
+      internalID: -6475835929235221694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 213
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343044fe8e3cb3cd0800000000000000
+      internalID: -2577250956525436093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 259
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621701b402cc9280800000000000000
+      internalID: -9035133427006369173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 255
+        width: 22
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24910663a90bc4190800000000000000
+      internalID: -7976806663596271294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 255
+        width: 150
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c166cfe287b45c10800000000000000
+      internalID: 2041458304102064582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 22
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45e3a90eb8642e20800000000000000
+      internalID: 3324897590321079629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 130
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d57683a842fec1c0800000000000000
+      internalID: -4481378185391999530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 129
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4908c9622cfc9010800000000000000
+      internalID: 1197108825707514190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 227
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1789cc9f6b6c790800000000000000
+      internalID: -7510114144598068765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 227
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055a6b1bd1d672bb0800000000000000
+      internalID: -4960876490222295728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 195
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e34e8acc8bc752b0800000000000000
+      internalID: -5595780206430370845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 23
+        width: 178
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43543e8ebca26b230800000000000000
+      internalID: 3654155202931672372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 195
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858bdad6ab9509010800000000000000
+      internalID: 1193552558492072024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 195
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c2b5a66c8315e00800000000000000
+      internalID: 1031668214483594385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 17
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aff892568b53180800000000000000
+      internalID: -9136193524422673901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 87
+        width: 18
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f897286ec861cb0800000000000000
+      internalID: -4893569023432093885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 42
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34de27054f3696760800000000000000
+      internalID: 7451596959434075459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 42
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddd838a48d1e9600800000000000000
+      internalID: 476851066143038935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d23fff2f1cc50d0800000000000000
+      internalID: -3432655566542787180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_pixel_art_palette_by_shibarilord_detxrq0_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8267ab8ad60cbb0800000000000000
+      internalID: -4917810221638342463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
