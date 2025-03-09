@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,24 +15,27 @@ public class GameManager : MonoBehaviour
         {
             Instance = this; // Asigna esta instancia
         }
-        else
-        {
-            Destroy(gameObject); // Evita duplicados
-            return;
-        }
 
-        DontDestroyOnLoad(gameObject); // Mantiene el GameManager entre escenas
+        if (hud == null)
+        {
+            hud = FindObjectOfType<HUD>();
+        }
     }
 
     public void perderVida()
     {
+        vidas -= 1;
+        Debug.Log(vidas);
+        hud.desactivarVida(vidas);
+
         if (vidas == 0)
         {
             SceneManager.LoadScene(0);
+            hud.reiniciarVidas();
+            vidas = 3;
             return;
         }
-        vidas -= 1;
-        hud.desactivarVida(vidas);
+        
     }
 
     public bool recuperarVida()
