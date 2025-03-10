@@ -1646,9 +1646,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 648
-        width: 26
-        height: 34
+        y: 656
+        width: 27
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1778,10 +1778,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 600
+        y: 607
         width: 26
-        height: 34
-      alignment: 0
+        height: 27
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -2109,6 +2109,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_81
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 594
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc05c2db7b83b4ebd09ec1635c6f14
+      internalID: 1230285120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2203,6 +2225,7 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_79: -1053289770
       SunnysideWorld_Tileset_V0.1_8: 3480877028203309643
       SunnysideWorld_Tileset_V0.1_80: 1864088565
+      SunnysideWorld_Tileset_V0.1_81: 1230285120
       SunnysideWorld_Tileset_V0.1_9: -6704803212579058196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
