@@ -80,11 +80,6 @@ public class CharactertControler : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             handleAnimations(PLAYER_IDLE);
         }
-
-        
-
-
-        
     }
 
     void GestionarOrientacion(float inputMovement)
