@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 
 public class CharactertControler : MonoBehaviour
 {
     public float velocidad = 10f;
-    public float forceHit;
+    public GameObject weapon;
+
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private bool mirandoDerecha = true;
@@ -13,9 +15,16 @@ public class CharactertControler : MonoBehaviour
     private float attackAnimationDuration = 0.15f;
     private float attackCooldown = 0.2f;
     private float attackTimer = 0f;
+    private bool puedeMoverse = true;
 
-    // Weapon
-    public GameObject weapon;
+
+    private string currentState = "Player_idle";
+
+    //Animations
+
+    private string PLAYER_WALKING = "Player_walking";
+    private string PLAYER_IDLE = "Player_idle";
+    private string PLAYER_DAMAGE = "Player_damage";
 
     private void Start()
     {
@@ -29,12 +38,17 @@ public class CharactertControler : MonoBehaviour
     void Update()
     {
 
+        if (!puedeMoverse)
+        {
+            return;
+        }
+
+
         if (attacking)
         {
             attackTimer += Time.deltaTime;
             if (attackTimer >= attackAnimationDuration)
             {
-                // Termina el ataque
                 attacking = false;
                 attackArea.SetActive(false);
             }
@@ -51,15 +65,21 @@ public class CharactertControler : MonoBehaviour
     }
 
     void ProcesarMovimiento()
-    {
-        float inputMovementHorizontal = Input.GetAxis("Horizontal");
-        float inputMovementVertical = Input.GetAxis("Vertical");
+    {       
 
-        rb.linearVelocity = new Vector2(inputMovementHorizontal * velocidad, inputMovementVertical * velocidad);
+        float axisX = Input.GetAxis("Horizontal");
+        float axisY = Input.GetAxis("Vertical");
 
-        animator.SetFloat("MovementX", inputMovementHorizontal);
-        animator.SetFloat("MovementY", inputMovementVertical);
-        GestionarOrientacion(inputMovementHorizontal);
+        if (axisX != 0 || axisY != 0)
+        {
+            rb.linearVelocity = new Vector2(axisX * velocidad, axisY * velocidad);
+            GestionarOrientacion(axisX);
+            handleAnimations(PLAYER_WALKING);
+        } else
+        {
+            rb.linearVelocity = Vector2.zero;
+            handleAnimations(PLAYER_IDLE);
+        }
     }
 
     void GestionarOrientacion(float inputMovement)
@@ -80,10 +100,7 @@ public class CharactertControler : MonoBehaviour
         // Rotamos el arma al atacar
         weapon.transform.Rotate(new Vector3(0, 0, -80));
 
-        //// Ajustamos su posici�n correctamente
-        //weapon.transform.localPosition = new Vector3(-0.318f, 0.381f, 0);
 
-        // Desactivamos el ataque despu�s de attackAnimationDuration
         Invoke(nameof(EndAttack), attackAnimationDuration);
     }
 
@@ -95,17 +112,26 @@ public class CharactertControler : MonoBehaviour
 
     public void SetHit()
     {
-        Vector2 directionHit;
+        puedeMoverse = false;
+        handleAnimations(PLAYER_DAMAGE);
+        rb.linearVelocity = Vector2.zero;
+        StartCoroutine(EsperarYActivarMovimiento());
+       
+    }
 
-        if(rb.linearVelocityX > 0)
-        {
-            directionHit = new Vector2(-1, 1);
-        }
-        else
-        {
-            directionHit = new Vector2(1, 1);
-        }
+    IEnumerator EsperarYActivarMovimiento()
+    {
+        yield return new WaitForSeconds(1f);
+        handleAnimations(PLAYER_IDLE);
+        puedeMoverse = true;
+    }
 
-        rb.AddForce(directionHit * forceHit);
+    private void handleAnimations(string newState)
+    {
+        if (currentState == newState) return;
+
+        animator.Play(newState);
+
+        currentState = newState;
     }
 }
