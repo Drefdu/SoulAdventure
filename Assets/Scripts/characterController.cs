@@ -114,7 +114,6 @@ public class CharactertControler : MonoBehaviour
     {
         puedeMoverse = false;
         handleAnimations(PLAYER_DAMAGE);
-        Debug.Log("No puedo moverme");
         rb.linearVelocity = Vector2.zero;
         StartCoroutine(EsperarYActivarMovimiento());
        
