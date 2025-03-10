@@ -1,4 +1,7 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using Pathfinding;
 
 public class Enemy : MonoBehaviour
 {   
@@ -9,6 +12,7 @@ public class Enemy : MonoBehaviour
     public int health = 30;
     private Rigidbody2D rb;
 
+    public AIPath aiPath;
 
 
     private string currentState = "Slime_idle";
@@ -27,14 +31,21 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       if(aiPath.desiredVelocity.x >= 0.01f)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+       else if (aiPath.desiredVelocity.x  <= -0.01f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
     }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
         handleAnimations(SLIME_DAMAGE);
-        rb.linearVelocity = Vector2.zero;
+        aiPath.enabled = false;
         Invoke("ResolveHealth", 0.5f);
 
         
@@ -42,12 +53,14 @@ public class Enemy : MonoBehaviour
 
     private void ResolveHealth()
     {
+        
         if (health <= 0)
         {
             Die();
         } 
         else
         {
+            aiPath.enabled = true;
             handleAnimations(SLIME_IDLE);
         }
     }
