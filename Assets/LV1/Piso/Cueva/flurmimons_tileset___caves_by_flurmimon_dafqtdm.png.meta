@@ -336,6 +336,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2134,7 +2160,88 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_0: -3122309887775801213
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_1: -248668980981364644
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_10: -1909370859639722450
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_11: 6530846932452439119
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_12: -309745850304065940
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_13: 4048452074465355944
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_14: -9057795199503742984
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_15: 1069309148613403895
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_16: 4018615149887347782
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_17: 914162592487632747
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_18: 2277263119412003927
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_19: 8258202061704237649
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_2: -4881992139916243357
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_20: -6725999445806684013
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_21: -1808777432223496173
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_22: -1546023864196439932
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_23: -6071721135324982632
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_24: -5638375841840739229
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_25: 5585866554523489711
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_26: 1468311458914782325
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_27: 4415570830641354000
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_28: 6381480433859142639
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_29: 3578375389979778577
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_3: -6287976808204541840
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_30: 8306638905206505491
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_31: -2657840472895915924
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_32: -7291605817093103081
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_33: 2133430062256581400
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_34: 2741340880518313603
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_35: 4174796574790778329
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_36: 2160949151252597910
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_37: 96153787610091231
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_38: 2724630728516753045
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_39: -6546547441564417550
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_4: 4474061943793602881
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_40: 587013195678846213
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_41: -3273229437234757024
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_42: -5863954592604518825
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_43: -1121658069707728260
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_44: 8965400828513877654
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_45: -1074614153820224114
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_46: 7635200644359420496
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_47: 2607718354644676072
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_48: -8663931335828695970
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_49: -498369409546532307
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_5: -8115511655161935083
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_50: -5527609131459573220
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_51: -8062855370158522437
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_52: 3130783229718095
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_53: -658208936243502017
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_54: 8415561645694393751
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_55: -7609808094630506470
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_56: 3375978934294466786
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_57: 983311367923559392
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_58: -3721958373550825633
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_59: 7905925345641533677
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_6: 2946188538360862844
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_60: -6126258720118917207
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_61: -730090912486963592
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_62: -8751720788441140517
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_63: 2634159250689806767
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_64: 6980267633896141521
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_65: 5012639162619693564
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_66: -2963266467275730149
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_67: -6710393117189630768
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_68: 7558122264966490882
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_69: 2740691685362164667
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_7: 4937617750201353174
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_70: 4227392214589429433
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_71: 2591166633268901928
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_72: 4320320610273728678
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_73: -3838708326722371978
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_74: 4490163974640230833
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_75: -6628062832750607555
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_76: -4097001820247423974
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_77: -1624279923333092205
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_78: 3527228531506579530
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_79: -6103327467262451408
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_8: 4637597917594285442
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_80: 680433464422890158
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_9: 2024801252815951225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
