@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: a06792b312e97dd4cbd14b58b24b7d49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3122309887775801213
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_0
+  - first:
+      213: -248668980981364644
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_1
+  - first:
+      213: -4881992139916243357
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_2
+  - first:
+      213: -6287976808204541840
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_3
+  - first:
+      213: 4474061943793602881
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_4
+  - first:
+      213: -8115511655161935083
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_5
+  - first:
+      213: 2946188538360862844
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_6
+  - first:
+      213: 4937617750201353174
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_7
+  - first:
+      213: 4637597917594285442
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_8
+  - first:
+      213: 2024801252815951225
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_9
+  - first:
+      213: -1909370859639722450
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_10
+  - first:
+      213: 6530846932452439119
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_11
+  - first:
+      213: -309745850304065940
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_12
+  - first:
+      213: 4048452074465355944
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_13
+  - first:
+      213: -9057795199503742984
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_14
+  - first:
+      213: 1069309148613403895
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_15
+  - first:
+      213: 4018615149887347782
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_16
+  - first:
+      213: 914162592487632747
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_17
+  - first:
+      213: 2277263119412003927
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_18
+  - first:
+      213: 8258202061704237649
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_19
+  - first:
+      213: -6725999445806684013
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_20
+  - first:
+      213: -1808777432223496173
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_21
+  - first:
+      213: -1546023864196439932
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_22
+  - first:
+      213: -6071721135324982632
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_23
+  - first:
+      213: -5638375841840739229
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_24
+  - first:
+      213: 5585866554523489711
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_25
+  - first:
+      213: 1468311458914782325
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_26
+  - first:
+      213: 4415570830641354000
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_27
+  - first:
+      213: 6381480433859142639
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_28
+  - first:
+      213: 3578375389979778577
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_29
+  - first:
+      213: 8306638905206505491
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_30
+  - first:
+      213: -2657840472895915924
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_31
+  - first:
+      213: -7291605817093103081
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_32
+  - first:
+      213: 2133430062256581400
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_33
+  - first:
+      213: 2741340880518313603
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_34
+  - first:
+      213: 4174796574790778329
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_35
+  - first:
+      213: 2160949151252597910
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_36
+  - first:
+      213: 96153787610091231
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_37
+  - first:
+      213: 2724630728516753045
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_38
+  - first:
+      213: -6546547441564417550
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_39
+  - first:
+      213: 587013195678846213
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_40
+  - first:
+      213: -3273229437234757024
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_41
+  - first:
+      213: -5863954592604518825
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_42
+  - first:
+      213: -1121658069707728260
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_43
+  - first:
+      213: 8965400828513877654
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_44
+  - first:
+      213: -1074614153820224114
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_45
+  - first:
+      213: 7635200644359420496
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_46
+  - first:
+      213: 2607718354644676072
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_47
+  - first:
+      213: -8663931335828695970
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_48
+  - first:
+      213: -498369409546532307
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_49
+  - first:
+      213: -5527609131459573220
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_50
+  - first:
+      213: -8062855370158522437
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_51
+  - first:
+      213: 3130783229718095
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_52
+  - first:
+      213: -658208936243502017
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_53
+  - first:
+      213: 8415561645694393751
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_54
+  - first:
+      213: -7609808094630506470
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_55
+  - first:
+      213: 3375978934294466786
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_56
+  - first:
+      213: 983311367923559392
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_57
+  - first:
+      213: -3721958373550825633
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_58
+  - first:
+      213: 7905925345641533677
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_59
+  - first:
+      213: -6126258720118917207
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_60
+  - first:
+      213: -730090912486963592
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_61
+  - first:
+      213: -8751720788441140517
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_62
+  - first:
+      213: 2634159250689806767
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_63
+  - first:
+      213: 6980267633896141521
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_64
+  - first:
+      213: 5012639162619693564
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_65
+  - first:
+      213: -2963266467275730149
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_66
+  - first:
+      213: -6710393117189630768
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_67
+  - first:
+      213: 7558122264966490882
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_68
+  - first:
+      213: 2740691685362164667
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_69
+  - first:
+      213: 4227392214589429433
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_70
+  - first:
+      213: 2591166633268901928
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_71
+  - first:
+      213: 4320320610273728678
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_72
+  - first:
+      213: -3838708326722371978
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_73
+  - first:
+      213: 4490163974640230833
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_74
+  - first:
+      213: -6628062832750607555
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_75
+  - first:
+      213: -4097001820247423974
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_76
+  - first:
+      213: -1624279923333092205
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_77
+  - first:
+      213: 3527228531506579530
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_78
+  - first:
+      213: -6103327467262451408
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_79
+  - first:
+      213: 680433464422890158
+    second: flurmimons_tileset___caves_by_flurmimon_dafqtdm_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 417
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800f6423b35ba4d0800000000000000
+      internalID: -3122309887775801213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 498
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5882f911ec8c8cf0800000000000000
+      internalID: -248668980981364644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 495
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e0b00c30eaf3cb0800000000000000
+      internalID: -4881992139916243357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e217786e9cb8a0800000000000000
+      internalID: -6287976808204541840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 527
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14159ee12af071e30800000000000000
+      internalID: 4474061943793602881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 527
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bc78fb529ef5f80800000000000000
+      internalID: -8115511655161935083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 497
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c789356bdd6f2e820800000000000000
+      internalID: 2946188538360862844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 495
+        width: 209
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d34a65ee21f58440800000000000000
+      internalID: 4937617750201353174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 463
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857c492cbe0c5040800000000000000
+      internalID: 4637597917594285442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 463
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9755cd6f20a891c10800000000000000
+      internalID: 2024801252815951225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 415
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e21b6c15d8085e0800000000000000
+      internalID: -1909370859639722450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 479
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f643eeaa32aa50800000000000000
+      internalID: 6530846932452439119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 463
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e89fd4acf83bbf0800000000000000
+      internalID: -309745850304065940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a863bc46bdfe2830800000000000000
+      internalID: 4048452074465355944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7475d914f3c4280800000000000000
+      internalID: -9057795199503742984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 447
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f46d265103f6de00800000000000000
+      internalID: 1069309148613403895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_16
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 447
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cd902ff2df4c730800000000000000
+      internalID: 4018615149887347782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 417
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fec20d802cfac00800000000000000
+      internalID: 914162592487632747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 415
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75486acddb67a9f10800000000000000
+      internalID: 2277263119412003927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 415
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152974375070b9270800000000000000
+      internalID: 8258202061704237649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_20
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 415
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398e731d32378a2a0800000000000000
+      internalID: -6725999445806684013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_21
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 338
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318439a328ee5e6e0800000000000000
+      internalID: -1808777432223496173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_22
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 335
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4806b489c7b6b8ae0800000000000000
+      internalID: -1546023864196439932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89219b9fbc9ecbba0800000000000000
+      internalID: -6071721135324982632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_24
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 367
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c40f49b0770c1b0800000000000000
+      internalID: -5638375841840739229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 367
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa59b11490cf48d40800000000000000
+      internalID: 5585866554523489711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_26
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 337
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c40401e7d706410800000000000000
+      internalID: 1468311458914782325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_27
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 335
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01554f89642474d30800000000000000
+      internalID: 4415570830641354000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_28
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 303
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a741e4a29f8850800000000000000
+      internalID: 6381480433859142639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_29
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 335
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e9eb84571f8a130800000000000000
+      internalID: 3578375389979778577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 335
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3100646e21c174370800000000000000
+      internalID: 8306638905206505491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_31
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 258
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68f167fb247d1bd0800000000000000
+      internalID: -2657840472895915924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7126ef554230fca90800000000000000
+      internalID: -7291605817093103081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_33
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 303
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b61f596577b9d10800000000000000
+      internalID: 2133430062256581400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 303
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386fc8fa1033b0620800000000000000
+      internalID: 2741340880518313603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddfbe1ad5bdfe930800000000000000
+      internalID: 4174796574790778329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 287
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cc71acdcb3dfd10800000000000000
+      internalID: 2160949151252597910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_37
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 287
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdece424c5b955100800000000000000
+      internalID: 96153787610091231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_38
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 257
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596da5d3635dfc520800000000000000
+      internalID: 2724630728516753045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_39
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 255
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f18f4879cdf525a0800000000000000
+      internalID: -6546547441564417550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_40
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 223
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d87ee246d752800800000000000000
+      internalID: 587013195678846213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_41
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062454d4b272392d0800000000000000
+      internalID: -3273229437234757024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_42
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 255
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75689c8dd5c0f9ea0800000000000000
+      internalID: -5863954592604518825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_43
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 255
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ade9bade11f60f0800000000000000
+      internalID: -1121658069707728260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_44
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 208
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eff848d808b6c70800000000000000
+      internalID: 8965400828513877654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 223
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8540f2ee143611f0800000000000000
+      internalID: -1074614153820224114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 208
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a70e3788ea5f960800000000000000
+      internalID: 7635200644359420496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 207
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edacdaf60a703420800000000000000
+      internalID: 2607718354644676072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_48
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 223
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e541e818a5883c780800000000000000
+      internalID: -8663931335828695970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_49
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 177
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ace0999af6519f0800000000000000
+      internalID: -498369409546532307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_50
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 175
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a852e08ccf943b0800000000000000
+      internalID: -5527609131459573220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_51
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 175
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfb95a72cbfa1090800000000000000
+      internalID: -8062855370158522437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 163
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ea6464e6f1b0000800000000000000
+      internalID: 3130783229718095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34e737b5729dd6f0800000000000000
+      internalID: -658208936243502017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_54
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d140daab41ac470800000000000000
+      internalID: 8415561645694393751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 161
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1018ae3bd7846690800000000000000
+      internalID: -7609808094630506470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0d2db34f2e9de20800000000000000
+      internalID: 3375978934294466786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 159
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebefa4ba7c65ad00800000000000000
+      internalID: 983311367923559392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_58
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 111
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f56bb3492f85cc0800000000000000
+      internalID: -3721958373550825633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de098b7e63d77bd60800000000000000
+      internalID: 7905925345641533677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_60
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a73c2107282bfaa0800000000000000
+      internalID: -6126258720118917207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_61
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876497bee223ed5f0800000000000000
+      internalID: -730090912486963592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_62
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 143
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2709fbf44ab8680800000000000000
+      internalID: -8751720788441140517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_63
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 143
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1dc23d1e96e8420800000000000000
+      internalID: 2634159250689806767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_64
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 113
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d239831e64eed060800000000000000
+      internalID: 6980267633896141521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_65
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 79
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf98823a2c8709540800000000000000
+      internalID: 5012639162619693564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_66
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 111
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13143b19dc50e6d0800000000000000
+      internalID: -2963266467275730149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_67
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 111
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49faa5305efd2a0800000000000000
+      internalID: -6710393117189630768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_68
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 34
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b6c44c728d3e860800000000000000
+      internalID: 7558122264966490882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 79
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3e0e82194e80620800000000000000
+      internalID: 2740691685362164667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_70
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 79
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6dadc42d6baaa30800000000000000
+      internalID: 4227392214589429433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_71
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82876d9035ca5f320800000000000000
+      internalID: 2591166633268901928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_72
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81a2b74bcd4fb30800000000000000
+      internalID: 4320320610273728678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_73
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ef06d7d1b2abac0800000000000000
+      internalID: -3838708326722371978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_74
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 33
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1efa35854405e30800000000000000
+      internalID: 4490163974640230833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_75
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 31
+        width: 209
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d334ee878f36404a0800000000000000
+      internalID: -6628062832750607555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_76
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1406042d868427c0800000000000000
+      internalID: -4097001820247423974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39caee9f3066579e0800000000000000
+      internalID: -1624279923333092205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_78
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48821e49ab33f030800000000000000
+      internalID: 3527228531506579530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031efed5100ac4ba0800000000000000
+      internalID: -6103327467262451408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flurmimons_tileset___caves_by_flurmimon_dafqtdm_80
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaf63c71a2617900800000000000000
+      internalID: 680433464422890158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_0: -3122309887775801213
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_1: -248668980981364644
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_10: -1909370859639722450
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_11: 6530846932452439119
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_12: -309745850304065940
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_13: 4048452074465355944
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_14: -9057795199503742984
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_15: 1069309148613403895
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_16: 4018615149887347782
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_17: 914162592487632747
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_18: 2277263119412003927
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_19: 8258202061704237649
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_2: -4881992139916243357
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_20: -6725999445806684013
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_21: -1808777432223496173
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_22: -1546023864196439932
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_23: -6071721135324982632
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_24: -5638375841840739229
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_25: 5585866554523489711
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_26: 1468311458914782325
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_27: 4415570830641354000
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_28: 6381480433859142639
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_29: 3578375389979778577
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_3: -6287976808204541840
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_30: 8306638905206505491
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_31: -2657840472895915924
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_32: -7291605817093103081
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_33: 2133430062256581400
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_34: 2741340880518313603
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_35: 4174796574790778329
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_36: 2160949151252597910
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_37: 96153787610091231
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_38: 2724630728516753045
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_39: -6546547441564417550
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_4: 4474061943793602881
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_40: 587013195678846213
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_41: -3273229437234757024
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_42: -5863954592604518825
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_43: -1121658069707728260
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_44: 8965400828513877654
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_45: -1074614153820224114
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_46: 7635200644359420496
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_47: 2607718354644676072
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_48: -8663931335828695970
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_49: -498369409546532307
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_5: -8115511655161935083
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_50: -5527609131459573220
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_51: -8062855370158522437
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_52: 3130783229718095
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_53: -658208936243502017
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_54: 8415561645694393751
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_55: -7609808094630506470
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_56: 3375978934294466786
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_57: 983311367923559392
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_58: -3721958373550825633
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_59: 7905925345641533677
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_6: 2946188538360862844
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_60: -6126258720118917207
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_61: -730090912486963592
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_62: -8751720788441140517
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_63: 2634159250689806767
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_64: 6980267633896141521
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_65: 5012639162619693564
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_66: -2963266467275730149
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_67: -6710393117189630768
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_68: 7558122264966490882
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_69: 2740691685362164667
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_7: 4937617750201353174
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_70: 4227392214589429433
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_71: 2591166633268901928
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_72: 4320320610273728678
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_73: -3838708326722371978
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_74: 4490163974640230833
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_75: -6628062832750607555
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_76: -4097001820247423974
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_77: -1624279923333092205
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_78: 3527228531506579530
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_79: -6103327467262451408
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_8: 4637597917594285442
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_80: 680433464422890158
+      flurmimons_tileset___caves_by_flurmimon_dafqtdm_9: 2024801252815951225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
