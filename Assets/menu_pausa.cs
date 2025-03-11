@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+    using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class menu_pausa : MonoBehaviour
@@ -42,7 +42,6 @@ public class menu_pausa : MonoBehaviour
     }
 
     public void Cerrar(){
-        Debug.Log("cerrando");
-        Application.Quit(); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
