@@ -20,8 +20,14 @@ MonoBehaviour:
     rid: 9085630291156926464
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/Inicio.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Menu_inicial.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Granja.unity
+  - m_enabled: 0
+    m_path: Assets/Scenes/Bosque.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
