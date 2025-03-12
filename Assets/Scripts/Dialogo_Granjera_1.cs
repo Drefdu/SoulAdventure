@@ -5,14 +5,26 @@ using TMPro;
 public class Dialogo_Granjera_1 : MonoBehaviour
 {
         [SerializeField] private GameObject dialoguePanel;
+        [SerializeField] private AudioClip npcVoice;
+        [SerializeField] private float typingTime;
+        [SerializeField] private int TimeChatSong;
+
         [SerializeField] private TMP_Text dialogueText;
         [SerializeField, TextArea(4,6)] private string[] dialogueLines;
+        
     private bool isPlayerInRange;
     private bool didDialogoStart;
     private int lineIndex;
 
     
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = npcVoice;
     
+    }
 
 
     // Update is called once per frame
@@ -60,9 +72,15 @@ public class Dialogo_Granjera_1 : MonoBehaviour
 
     private IEnumerator ShowLine(){
         dialogueText.text = string.Empty;
+        int charIndex = 0;
+
         foreach(char ch in dialogueLines[lineIndex]){
             dialogueText.text += ch;
-            yield return new WaitForSecondsRealtime(0.05f);
+            if(charIndex % TimeChatSong==0){
+                audioSource.Play();
+            }
+            charIndex++;
+            yield return new WaitForSecondsRealtime(typingTime);
         }
     }
 
