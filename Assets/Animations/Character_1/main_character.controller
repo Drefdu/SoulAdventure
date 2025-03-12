@@ -1,11 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1101 &-7366094043349990254
 AnimatorStateTransition:
+=======
+--- !u!1102 &-5336642063455586774
+AnimatorState:
+  serializedVersion: 6
+>>>>>>> main
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
@@ -103,6 +110,27 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+=======
+  m_Name: Player_idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0843d5543dde8fa4290996f9bcb67f58, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+>>>>>>> main
 --- !u!1107 &-4269458967890295621
 AnimatorStateMachine:
   serializedVersion: 6
@@ -113,6 +141,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: 3515259697448132037}
     m_Position: {x: 200, y: 170, z: 0}
   - serializedVersion: 1
@@ -124,11 +153,22 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 3476915434758906266}
     m_Position: {x: 570, y: -30, z: 0}
+=======
+    m_State: {fileID: -5336642063455586774}
+    m_Position: {x: 290, y: 210, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4955058696475461715}
+    m_Position: {x: 290, y: 270, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7698809314439595271}
+    m_Position: {x: 290, y: 330, z: 0}
+>>>>>>> main
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
+<<<<<<< HEAD
   m_AnyStatePosition: {x: 40, y: 50, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 760, y: 50, z: 0}
@@ -190,6 +230,13 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+=======
+  m_AnyStatePosition: {x: 310, y: 110, z: 0}
+  m_EntryPosition: {x: 310, y: 160, z: 0}
+  m_ExitPosition: {x: 310, y: 390, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: -5336642063455586774}
+>>>>>>> main
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -198,6 +245,7 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: main_character
   serializedVersion: 5
+<<<<<<< HEAD
   m_AnimatorParameters:
   - m_Name: isRunning
     m_Type: 4
@@ -223,6 +271,9 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+=======
+  m_AnimatorParameters: []
+>>>>>>> main
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -236,6 +287,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
 --- !u!1101 &1213251967256707085
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -268,13 +320,20 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &2019174718589638192
+=======
+--- !u!1102 &4955058696475461715
+>>>>>>> main
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: Walking
+=======
+  m_Name: Player_damage
+>>>>>>> main
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -291,7 +350,37 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: 3c3a1cf717a65bb4689307c3b4a5c379, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: 0e968940854c018408c6cbd3a1143775, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &7698809314439595271
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_walking
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: de5d46470c668ae4480073c482402f64, type: 2}
+>>>>>>> main
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

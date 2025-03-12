@@ -127,8 +127,13 @@ TextureImporter:
       name: House_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3
         y: 22
+=======
+        x: 0
+        y: 24
+>>>>>>> main
         width: 74
         height: 88
       alignment: 0
@@ -137,7 +142,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: 750032c7990632990800000000000000
       internalID: -7411974349392773033
@@ -159,7 +168,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: d6e7b8e1c8cbcd580800000000000000
       internalID: -8800952261794890131
@@ -181,7 +194,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: 18d91bab8a1f091c0800000000000000
       internalID: -4498830320754123391
@@ -203,7 +220,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: df583e5cb310279a0800000000000000
       internalID: -6236921177719994883
@@ -215,8 +236,13 @@ TextureImporter:
       name: House_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 147
         y: 13
+=======
+        x: 148
+        y: 12
+>>>>>>> main
         width: 74
         height: 97
       alignment: 0
@@ -224,8 +250,25 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
+<<<<<<< HEAD
       physicsShape: []
       tessellationDetail: -1
+=======
+      physicsShape:
+      - - {x: 28, y: -23.5}
+        - {x: 28, y: -9.5}
+        - {x: 30, y: -9.5}
+        - {x: 29, y: 17.5}
+        - {x: 4, y: 17.5}
+        - {x: -13, y: 16.5}
+        - {x: -35, y: 16.5}
+        - {x: -34, y: -9.5}
+        - {x: -30, y: -9.5}
+        - {x: -31, y: -36.5}
+        - {x: -20, y: -37.5}
+        - {x: 28, y: -36.5}
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: a949314c1a739e200800000000000000
       internalID: 209760025568318618
@@ -247,7 +290,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: 097b829041da1bf80800000000000000
       internalID: -8092496753843456112
@@ -269,7 +316,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: d7dcc27469ca5c7f0800000000000000
       internalID: -592878014490161795
@@ -291,7 +342,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: 860a885a0864aca60800000000000000
       internalID: 7695040431662866536
@@ -313,7 +368,11 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+<<<<<<< HEAD
       tessellationDetail: -1
+=======
+      tessellationDetail: 0
+>>>>>>> main
       bones: []
       spriteID: 1a4e9051f0eeca0d0800000000000000
       internalID: -3410089069281418079

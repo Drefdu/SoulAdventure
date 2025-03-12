@@ -40704,6 +40704,7 @@ Tilemap:
       e32: 0
       e33: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_RefCount: 0
     m_Data:
       e00: -9.243895e-35
@@ -40724,6 +40725,8 @@ Tilemap:
       e33: 1
 =======
 >>>>>>> 7114a79 (Mapa 1 (Granja))
+=======
+>>>>>>> main
   m_TileColorArray:
   - m_RefCount: 2901
     m_Data: {r: 1, g: 1, b: 1, a: 1}
@@ -40804,10 +40807,14 @@ TilemapRenderer:
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &4860694143268936641
 =======
 --- !u!114 &3197532091532896160
 >>>>>>> 7114a79 (Mapa 1 (Granja))
+=======
+--- !u!114 &3197532091532896160
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
