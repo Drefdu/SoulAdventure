@@ -221,6 +221,30 @@ build-WebGL:
   variables:
     BUILD_TARGET: WebGL
 
+build-LinuxARM64:
+  <<: *build
+  image: $IMAGE:$UNITY_VERSION-linux-$IMAGE_VERSION
+  before_script:
+    - chmod +x ./ci/before_script.sh && ./ci/before_script.sh
+    - apt-get update && apt-get install -y libstdc++6 libc++1
+  variables:
+    BUILD_TARGET: Linux
+    UNITY_ARCHITECTURE: ARM64
+  script:
+    - echo "Building for Linux ARM64"
+    - unity-editor -batchmode -nographics -quit \
+      -projectPath $(pwd) \
+      -buildTarget Linux \
+      -customBuildTarget Linux \
+      -customBuildName "MyGame_Linux_ARM64" \
+      -customBuildPath "./Build/Linux_ARM64/" \
+      -executeMethod BuildScript.PerformBuild \
+      -logFile /dev/stdout
+  artifacts:
+    paths:
+      - Build/Linux_ARM64/
+    expire_in: 7 days
+
 # build-android:
 #   <<: *build
 #   image: $IMAGE:$UNITY_VERSION-android-$IMAGE_VERSION
