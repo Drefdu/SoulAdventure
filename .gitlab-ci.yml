@@ -180,23 +180,23 @@ test-editmode-with-junit-reports:
   tags:
     - gitlab-org
 
-build-StandaloneLinux64:
-  <<: *build
-  variables:
-    BUILD_TARGET: StandaloneLinux64
+# build-StandaloneLinux64:
+#   <<: *build
+#   variables:
+#     BUILD_TARGET: StandaloneLinux64
 
-build-StandaloneLinux64-il2cpp:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-linux-il2cpp-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: StandaloneLinux64
-    SCRIPTING_BACKEND: IL2CPP
+# build-StandaloneLinux64-il2cpp:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-linux-il2cpp-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: StandaloneLinux64
+#     SCRIPTING_BACKEND: IL2CPP
 
-build-StandaloneOSX:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-mac-mono-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: StandaloneOSX
+# build-StandaloneOSX:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-mac-mono-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: StandaloneOSX
 
 #Note: build target names changed in recent versions, use this for versions < 2017.2:
 # build-StandaloneOSXUniversal:
@@ -204,11 +204,11 @@ build-StandaloneOSX:
 #   variables:
 #     BUILD_TARGET: StandaloneOSXUniversal
 
-build-StandaloneWindows64:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-windows-mono-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: StandaloneWindows64
+# build-StandaloneWindows64:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-windows-mono-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: StandaloneWindows64
 
 # For webgl support, you need to set Compression Format to Disabled for v0.9. See https://github.com/game-ci/docker/issues/75
 build-WebGL:
@@ -221,20 +221,20 @@ build-WebGL:
   variables:
     BUILD_TARGET: WebGL
 
-build-android:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-android-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: Android
-    BUILD_APP_BUNDLE: "false"
+# build-android:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-android-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: Android
+#     BUILD_APP_BUNDLE: "false"
 
-build-android-il2cpp:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-android-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: Android
-    BUILD_APP_BUNDLE: "false"
-    SCRIPTING_BACKEND: IL2CPP
+# build-android-il2cpp:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-android-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: Android
+#     BUILD_APP_BUNDLE: "false"
+#     SCRIPTING_BACKEND: IL2CPP
 
 #deploy-android:
 #  stage: deploy
@@ -247,11 +247,11 @@ build-android-il2cpp:
 #    - fastlane supply --aab "${BUILD_NAME}.aab" --track internal --package_name com.youcompany.yourgame --json_key ./gpc_token.json
 #  needs: ["build-android"]
 
-build-ios-xcode:
-  <<: *build
-  image: $IMAGE:$UNITY_VERSION-ios-$IMAGE_VERSION
-  variables:
-    BUILD_TARGET: iOS
+# build-ios-xcode:
+#   <<: *build
+#   image: $IMAGE:$UNITY_VERSION-ios-$IMAGE_VERSION
+#   variables:
+#     BUILD_TARGET: iOS
 
 #build-and-deploy-ios:
 #  stage: deploy
