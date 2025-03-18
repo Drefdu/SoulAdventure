@@ -144,6 +144,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -534,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Volver a jugar_0: 8844018044381755604
+      Volver a jugar_1: -870196987555748845
+      Volver a jugar_10: 3060464287036141046
+      Volver a jugar_11: 2994430373660944620
+      Volver a jugar_12: -163371965725330961
+      Volver a jugar_13: -2266894203227173254
+      Volver a jugar_14: -9113693072376840244
+      Volver a jugar_15: 1806811624937783723
+      Volver a jugar_16: -4809700115323996642
+      Volver a jugar_2: -1322098020168365553
+      Volver a jugar_3: 6047446911436281677
+      Volver a jugar_4: 1487683729227318326
+      Volver a jugar_5: -4235978009133712356
+      Volver a jugar_6: 1821972702239932122
+      Volver a jugar_7: -8113393998417382389
+      Volver a jugar_8: 2159468506589506748
+      Volver a jugar_9: 8611917627630569190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
