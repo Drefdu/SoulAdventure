@@ -8,7 +8,6 @@ stages:
 variables:
   BUILD_NAME: SoulAdventure
   IMAGE: unityci/editor # https://hub.docker.com/r/unityci/editor
-  UNITY_VERSION: 6000.0.33f1
   IMAGE_VERSION: 3 # This will automatically use latest v3.x.x, see https://github.com/game-ci/docker/releases
   UNITY_DIR: $CI_PROJECT_DIR # this needs to be an absolute path. Defaults to the root of your tree.
   # You can expose this in Unity via Application.version
