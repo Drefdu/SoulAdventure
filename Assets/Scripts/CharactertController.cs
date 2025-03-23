@@ -1,6 +1,10 @@
 using System.Collections;
 using UnityEngine;
+<<<<<<< HEAD:Assets/Scripts/characterController.cs
 using UnityEngine.SceneManagement;
+=======
+using System;
+>>>>>>> 97fd45f (Jalando los eventos):Assets/Scripts/CharactertController.cs
 
 public class CharactertControler : MonoBehaviour
 {
@@ -21,15 +25,17 @@ public class CharactertControler : MonoBehaviour
     private float attackTimer = 0f;
     private bool puedeMoverse = true;
 
-
     private string currentState = "Player_idle";
 
-    //Animations
-
+    // Animaciones
     private string PLAYER_WALKING = "Player_walking";
     private string PLAYER_IDLE = "Player_idle";
     private string PLAYER_DAMAGE = "Player_damage";
 
+<<<<<<< HEAD:Assets/Scripts/characterController.cs
+=======
+    public event EventHandler onBossF;
+>>>>>>> 97fd45f (Jalando los eventos):Assets/Scripts/CharactertController.cs
 
     private void Start()
     {
@@ -45,12 +51,8 @@ public class CharactertControler : MonoBehaviour
 
     void Update()
     {
-
         if (!puedeMoverse)
-        {
             return;
-        }
-
 
         if (attacking)
         {
@@ -63,7 +65,7 @@ public class CharactertControler : MonoBehaviour
         }
         else
         {
-            attackTimer += Time.deltaTime; // Contamos el cooldown
+            attackTimer += Time.deltaTime;
             ProcesarMovimiento();
             if (attackTimer >= attackCooldown && Input.GetKeyDown(KeyCode.Space))
             {
@@ -73,8 +75,7 @@ public class CharactertControler : MonoBehaviour
     }
 
     void ProcesarMovimiento()
-    {       
-
+    {
         float axisX = Input.GetAxis("Horizontal");
         float axisY = Input.GetAxis("Vertical");
 
@@ -83,7 +84,8 @@ public class CharactertControler : MonoBehaviour
             rb.linearVelocity = new Vector2(axisX * velocidad, axisY * velocidad);
             GestionarOrientacion(axisX);
             handleAnimations(PLAYER_WALKING);
-        } else
+        }
+        else
         {
             rb.linearVelocity = Vector2.zero;
             handleAnimations(PLAYER_IDLE);
@@ -102,20 +104,16 @@ public class CharactertControler : MonoBehaviour
     private void Attack()
     {
         attacking = true;
-        attackTimer = 0f; // Reiniciamos el tiempo del ataque
+        attackTimer = 0f;
         attackArea.SetActive(true);
-
-        // Rotamos el arma al atacar
         weapon.transform.Rotate(new Vector3(0, 0, -80));
-
-
         Invoke(nameof(EndAttack), attackAnimationDuration);
     }
 
     private void EndAttack()
     {
         attackArea.SetActive(false);
-        weapon.transform.Rotate(new Vector3(0, 0, 80)); // Volvemos a la rotaci�n original
+        weapon.transform.Rotate(new Vector3(0, 0, 80));
     }
 
     public void SetHit(int damage)
@@ -132,7 +130,6 @@ public class CharactertControler : MonoBehaviour
         handleAnimations(PLAYER_DAMAGE);
         rb.linearVelocity = Vector2.zero;
         StartCoroutine(EsperarYActivarMovimiento());
-       
     }
 
     IEnumerator EsperarYActivarMovimiento()
@@ -145,9 +142,16 @@ public class CharactertControler : MonoBehaviour
     private void handleAnimations(string newState)
     {
         if (currentState == newState) return;
-
         animator.Play(newState);
-
         currentState = newState;
+    }
+
+    private void LateUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Debug.Log("La tecla B ha sido presionada y el evento onBossF será invocado.");
+            onBossF?.Invoke(this, EventArgs.Empty);
+        }
     }
 }
