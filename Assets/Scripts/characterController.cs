@@ -1,10 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharactertControler : MonoBehaviour
 {
     public float velocidad = 10f;
     public GameObject weapon;
+    public int maxHealth;
+    public int currentHealth;
+    public HealthBar healthBar;
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
@@ -26,6 +30,7 @@ public class CharactertControler : MonoBehaviour
     private string PLAYER_IDLE = "Player_idle";
     private string PLAYER_DAMAGE = "Player_damage";
 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,6 +38,9 @@ public class CharactertControler : MonoBehaviour
         animator = GetComponent<Animator>();
         attackArea = transform.GetChild(0).gameObject;
         attackArea.SetActive(false);
+
+        currentHealth = maxHealth;
+        healthBar.SetMaxHelth(maxHealth);
     }
 
     void Update()
@@ -110,9 +118,17 @@ public class CharactertControler : MonoBehaviour
         weapon.transform.Rotate(new Vector3(0, 0, 80)); // Volvemos a la rotaci�n original
     }
 
-    public void SetHit()
+    public void SetHit(int damage)
     {
         puedeMoverse = false;
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+
+        if (currentHealth <= 0 )
+        {
+            SceneManager.LoadScene(0);
+        }
+
         handleAnimations(PLAYER_DAMAGE);
         rb.linearVelocity = Vector2.zero;
         StartCoroutine(EsperarYActivarMovimiento());
