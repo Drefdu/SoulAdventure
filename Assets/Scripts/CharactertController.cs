@@ -1,10 +1,7 @@
 using System.Collections;
 using UnityEngine;
-<<<<<<< HEAD:Assets/Scripts/characterController.cs
 using UnityEngine.SceneManagement;
-=======
 using System;
->>>>>>> 97fd45f (Jalando los eventos):Assets/Scripts/CharactertController.cs
 
 public class CharactertControler : MonoBehaviour
 {
@@ -32,10 +29,7 @@ public class CharactertControler : MonoBehaviour
     private string PLAYER_IDLE = "Player_idle";
     private string PLAYER_DAMAGE = "Player_damage";
 
-<<<<<<< HEAD:Assets/Scripts/characterController.cs
-=======
     public event EventHandler onBossF;
->>>>>>> 97fd45f (Jalando los eventos):Assets/Scripts/CharactertController.cs
 
     private void Start()
     {
