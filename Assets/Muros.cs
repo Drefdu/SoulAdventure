@@ -1,34 +1,20 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Muros : MonoBehaviour
 {
-    public List<GameObject> muros;
-    private CharactertControler charactertControler;
+    public List<GameObject> muros; // Lista de muros a activar
 
-    private void OnEnable()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
+        if (other.CompareTag("Player")) // Verifica si el jugador entra en la zona
         {
-            charactertControler = player.GetComponent<CharactertControler>();
-            if (charactertControler != null)
-            {
-                charactertControler.onBossF += Activar;
-            }
+            Debug.Log("🚀 Player ha activado los muros.");
+            ActivarMuros();
         }
     }
 
-    private void OnDisable()
-    {
-        if (charactertControler != null)
-        {
-            charactertControler.onBossF -= Activar;
-        }
-    }
-
-    private void Activar(object sender, EventArgs e)
+    private void ActivarMuros()
     {
         if (muros == null || muros.Count == 0) return;
 
@@ -36,7 +22,8 @@ public class Muros : MonoBehaviour
         {
             if (muro != null)
             {
-                muro.SetActive(!muro.activeSelf);
+                muro.SetActive(true);
+                Debug.Log($"🧱 Muro {muro.name} ha sido activado.");
             }
         }
     }
