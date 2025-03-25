@@ -3,43 +3,38 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    public GameObject gameOverMenu; // Asigna el panel del menú de Game Over en el Inspector
-    private bool isGameOver = false; // Controla si el personaje está muerto
+    public GameObject gameOverMenu; // Panel de Game Over
+    public GameObject[] elementosADesactivar; // Lista de objetos a ocultar
 
-    void Start()
+    private void Start()
     {
         gameOverMenu.SetActive(false); // Oculta el menú al inicio
     }
 
-    void Update()
+    public void ActivarGameOver()
     {
-        // Simula la muerte del personaje con la tecla "G" (solo para pruebas)
-        if (Input.GetKeyDown(KeyCode.G))
+        gameOverMenu.SetActive(true); // Muestra el menú de Game Over
+        Time.timeScale = 0f; // Pausa el juego
+
+        // Desactiva todos los elementos debajo de Game_Over
+        foreach (GameObject elemento in elementosADesactivar)
         {
-            ActivarGameOver();
+            if (elemento != null)
+            {
+                elemento.SetActive(false);
+            }
         }
     }
 
-    // Llama a esta función cuando el personaje muera
-    public void ActivarGameOver()
-    {
-        isGameOver = true;
-        gameOverMenu.SetActive(true); // Muestra el menú de Game Over
-        Time.timeScale = 0f; // Pausa el juego
-    }
-
-    // Método para reiniciar el nivel actual
     public void ReiniciarNivel()
     {
         Time.timeScale = 1f; // Reactiva el juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // Método para ir al menú principal
-public void IrAlMenu()
-{
-    Time.timeScale = 1f; // Reactiva el juego
-    SceneManager.LoadScene(0); // Siempre carga la escena con índice 0 (Menú Principal)
-}
-
+    public void IrAlMenu()
+    {
+        Time.timeScale = 1f; // Reactiva el juego
+        SceneManager.LoadScene(0); // Carga la escena con índice 0 (Menú Principal)
+    }
 }

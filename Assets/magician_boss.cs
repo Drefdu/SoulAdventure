@@ -62,7 +62,7 @@ public class Magician : MonoBehaviour
             return;
         };
 
-        // Manejo de dirección del enemigo
+        // Manejo de direcciï¿½n del enemigo
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
@@ -79,11 +79,11 @@ public class Magician : MonoBehaviour
             return;
         }
 
-        // Movimiento y ataque normal si no está atacando con proyectiles
+        // Movimiento y ataque normal si no estï¿½ atacando con proyectiles
         float distanceToPlayer = Vector3.Distance(transform.position, aiPath.destination);
         Debug.Log("Distancia al jugador: " + distanceToPlayer);
 
-        // Si está en rango, ejecuta otro ataque
+        // Si estï¿½ en rango, ejecuta otro ataque
         if (distanceToPlayer <= attackRange && puedeAtacar)
         {
             AtackOneLighting();
@@ -171,9 +171,9 @@ public class Magician : MonoBehaviour
     void AtackOneLighting()
     {
         aiPath.enabled = false;  // Detener el movimiento durante el ataque
-        handleAnimations(ANI_ATACK_1);  // Reproducir animación de ataque
-        attackArea.SetActive(true);  // Activar el área de ataque (usando un collider)
-        Invoke("DisableAttackArea", 0.5f);  // Desactivar el área de ataque después de un tiempo
+        handleAnimations(ANI_ATACK_1);  // Reproducir animaciï¿½n de ataque
+        attackArea.SetActive(true);  // Activar el ï¿½rea de ataque (usando un collider)
+        Invoke("DisableAttackArea", 0.5f);  // Desactivar el ï¿½rea de ataque despuï¿½s de un tiempo
     }
 
     void DisableAttackArea()
@@ -225,7 +225,7 @@ public class Magician : MonoBehaviour
         {
             aiPath.enabled = false; // Desactiva movimiento
             newShoot = !newShoot;
-            handleAnimations(ANI_ATACK_2); // Activa animación de ataque
+            handleAnimations(ANI_ATACK_2); // Activa animaciï¿½n de ataque
 
             for (int i = 0; i <= 3; i++)
             {

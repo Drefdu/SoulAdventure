@@ -21,6 +21,8 @@ public class CharactertControler : MonoBehaviour
     private float attackCooldown = 0.2f;
     private float attackTimer = 0f;
     private bool puedeMoverse = true;
+    
+    private GameOver gameOverMenu;
 
     private string currentState = "Player_idle";
 
@@ -41,6 +43,8 @@ public class CharactertControler : MonoBehaviour
 
         currentHealth = maxHealth;
         healthBar.SetMaxHelth(maxHealth);
+
+        gameOverMenu = FindObjectOfType<GameOver>(); // Busca el menú de Game Over en la escena
     }
 
     void Update()
@@ -116,9 +120,10 @@ public class CharactertControler : MonoBehaviour
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
 
-        if (currentHealth <= 0 )
+        if (currentHealth <= 0)
         {
-            SceneManager.LoadScene(0);
+            gameOverMenu.ActivarGameOver(); // 🔴 Activa el menú de Game Over en vez de reiniciar la escena
+            return;
         }
 
         handleAnimations(PLAYER_DAMAGE);

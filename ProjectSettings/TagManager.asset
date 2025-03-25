@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Magician
+  - Muros_S
+  - Muros_D
+  - Trigger
   layers:
   - Default
   - TransparentFX
