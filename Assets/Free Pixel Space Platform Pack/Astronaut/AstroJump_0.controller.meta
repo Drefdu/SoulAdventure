@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc689dcf0f2a62244b231798e30405c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 146318
+  packageName: Free Pixel Space Platform Pack
+  packageVersion: 1.0
+  assetPath: Assets/Free Pixel Space Platform Pack/Astronaut/AstroJump_0.controller
+  uploadId: 314768
