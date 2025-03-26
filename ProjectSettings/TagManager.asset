@@ -9,6 +9,7 @@ TagManager:
   - Muros_S
   - Muros_D
   - Trigger
+  - Scarecrow
   layers:
   - Default
   - TransparentFX

@@ -29,5 +29,10 @@ public class weaponAtack : MonoBehaviour
         {
             collision.gameObject.GetComponent<Magician>().TakeDamage(damage);
         }
+
+        if (collision.gameObject.CompareTag("Scarecrow"))
+        {
+            collision.gameObject.GetComponent<ScareCrow>().TakeDamage(damage);
+        }
     }
 }
