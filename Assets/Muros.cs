@@ -14,14 +14,14 @@ public class Muros : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("🔴 Tecla ESPACIO presionada. Desactivando muros.");
-            DesactivarMuros();
-        }
-    }
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         Debug.Log("🔴 Tecla ESPACIO presionada. Desactivando muros.");
+    //         DesactivarMuros();
+    //     }
+    // }
 
     private void ActivarMuros()
     {
@@ -37,7 +37,7 @@ public class Muros : MonoBehaviour
         }
     }
 
-    private void DesactivarMuros()
+    public void DesactivarMuros()
     {
         if (muros == null || muros.Count == 0) return;
 
