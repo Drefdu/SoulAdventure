@@ -4,15 +4,18 @@ using System.Collections.Generic;
 using Pathfinding;
 
 public class Enemy : MonoBehaviour
-{   
+{
+    public int damage = 10;
+    public float cooldownAtaque;
+    public int health = 30;
+    public AIPath aiPath;
+
     private bool puedeAtacar = true;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    public float cooldownAtaque;
-    public int health = 30;
     private Rigidbody2D rb;
 
-    public AIPath aiPath;
+    
 
 
     private string currentState = "Slime_idle";
@@ -21,7 +24,6 @@ public class Enemy : MonoBehaviour
     private string SLIME_IDLE = "Slime_idle";
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -47,8 +49,6 @@ public class Enemy : MonoBehaviour
         handleAnimations(SLIME_DAMAGE);
         aiPath.enabled = false;
         Invoke("ResolveHealth", 0.5f);
-
-        
     }
 
     private void ResolveHealth()
@@ -67,20 +67,20 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject); // Destruye al enemigo
+        Destroy(gameObject); 
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player")){
             puedeAtacar = false;
-            GameManager.Instance.perderVida();
+            aiPath.enabled = false;
 
             Color color  = spriteRenderer.color;
             color.a = 0.5f;
             spriteRenderer.color = color;
 
-            other.gameObject.GetComponent<CharactertControler>().SetHit();
+            other.gameObject.GetComponent<CharactertControler>().SetHit(damage);
         }
 
         Invoke("ReactivarAtaque", cooldownAtaque);
@@ -89,6 +89,7 @@ public class Enemy : MonoBehaviour
     void ReactivarAtaque()
     {
         puedeAtacar = true;
+        aiPath.enabled = true;
         Color color = spriteRenderer.color;
         color.a = 1f;
         spriteRenderer.color = color;

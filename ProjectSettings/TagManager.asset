@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Magician
+  - Muros_S
+  - Muros_D
+  - Trigger
   layers:
   - Default
   - TransparentFX
