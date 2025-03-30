@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Pathfinding;
+using UnityEngine.InputSystem.XR;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,13 +10,12 @@ public class Enemy : MonoBehaviour
     public float cooldownAtaque;
     public int health = 30;
     public AIPath aiPath;
-
-    private bool puedeAtacar = true;
+    public Muros zonaControl;
+    public bool puedeAtacar = true;
+    public bool isTakingDamage = false;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Rigidbody2D rb;
-
-    
 
 
     private string currentState = "Slime_idle";
@@ -28,6 +28,8 @@ public class Enemy : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        aiPath.enabled = false;
+        puedeAtacar = true;
     }
 
     // Update is called once per frame
@@ -45,6 +47,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isTakingDamage) { return; }
         health -= damage;
         handleAnimations(SLIME_DAMAGE);
         aiPath.enabled = false;
@@ -61,18 +64,22 @@ public class Enemy : MonoBehaviour
         else
         {
             aiPath.enabled = true;
+            isTakingDamage = false;
             handleAnimations(SLIME_IDLE);
         }
     }
 
     private void Die()
     {
+        zonaControl?.NotificarMuerteEnemigo(gameObject);
         Destroy(gameObject); 
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player")){
+
+            if(!puedeAtacar) { return; }
             puedeAtacar = false;
             aiPath.enabled = false;
 
@@ -93,7 +100,7 @@ public class Enemy : MonoBehaviour
         Color color = spriteRenderer.color;
         color.a = 1f;
         spriteRenderer.color = color;
-    }
+    } 
 
     private void handleAnimations(string newState)
     {
@@ -102,5 +109,10 @@ public class Enemy : MonoBehaviour
         animator.Play(newState);
 
         currentState = newState;
+    }
+
+    public void ActivateMovement()
+    {
+        aiPath.enabled = true;
     }
 }

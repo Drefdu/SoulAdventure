@@ -133,7 +133,7 @@ public class CharactertControler : MonoBehaviour
 
     IEnumerator EsperarYActivarMovimiento()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.2f);
         handleAnimations(PLAYER_IDLE);
         puedeMoverse = true;
     }
