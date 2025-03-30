@@ -33,6 +33,10 @@ public class CharactertControler : MonoBehaviour
 
     public event EventHandler onBossF;
 
+    // Joystick
+    public FixedJoystick joystick;
+    public float speed = 5f;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -152,5 +156,28 @@ public class CharactertControler : MonoBehaviour
             Debug.Log("La tecla B ha sido presionada y el evento onBossF será invocado.");
             onBossF?.Invoke(this, EventArgs.Empty);
         }
+    }
+
+    //Joystick
+
+    void FixedUpdate()
+    {
+        Vector2 move = new Vector2(joystick.Horizontal, joystick.Vertical);
+        rb.velocity = move * speed;
+    }
+
+    //Botón Ataque
+    public GameObject AreaAtaque;
+
+    public void Ataque()
+    {
+        Debug.Log("¡Ataque ejecutado!");
+        attackArea.SetActive(true);
+        Invoke("ParaAtaque", 0.3f); // Elimina el área después de un corto tiempo
+    }
+
+    void ParaAtaque()
+    {
+        attackArea.SetActive(false);
     }
 }
