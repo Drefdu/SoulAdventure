@@ -31,6 +31,13 @@ public class Muros : MonoBehaviour
                     {
                         enemyScript.ActivateMovement();
                     }
+
+                    ScareCrow scareCrowScript = enemigo.GetComponent<ScareCrow>();
+                    if ( scareCrowScript != null )
+                    {
+                        scareCrowScript.FollowPlayer();
+                    }
+
                 }
             }
 
@@ -95,6 +102,12 @@ public class Muros : MonoBehaviour
                 if (enemyScript != null)
                 {
                     enemyScript.zonaControl = this;
+                }
+
+                ScareCrow scareCrowScript = enemigo.GetComponent<ScareCrow>();
+                if (scareCrowScript != null)
+                {
+                    scareCrowScript.zonaControl = this;
                 }
             }
         }

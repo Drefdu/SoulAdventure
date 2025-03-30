@@ -3,6 +3,7 @@ using System.Collections;
 using Pathfinding;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEditor.Rendering;
+using UnityEngine.InputSystem.XR;
 
 public class ScareCrow : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class ScareCrow : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public GameObject weapon;
+    public Muros zonaControl;
 
     private GameObject attackArea = default;
     private bool puedeAtacar = true;
@@ -47,7 +49,8 @@ public class ScareCrow : MonoBehaviour
         attackArea.SetActive(false);
         handleAnimations(ANI_IDLE);
         aiPath.enabled = false;
-        Invoke("FollowPlayer", 2.5f);
+        puedeAtacar = false;
+        //Invoke("FollowPlayer", 2.5f);
     }
 
     void Update()
@@ -99,6 +102,7 @@ public class ScareCrow : MonoBehaviour
 
         if (health <= 0)
         {
+            zonaControl?.NotificarMuerteEnemigo(gameObject);
             Destroy(gameObject);
             //StartCoroutine(Die());
             return;
@@ -118,9 +122,9 @@ public class ScareCrow : MonoBehaviour
         currentState = newState;
     }
 
-    void FollowPlayer()
+    public void FollowPlayer()
     {
-        if (health <= 0) return;
+        if (health <= 0) { return; };
         handleAnimations(ANI_WALKING);
         aiPath.enabled = true;
         puedeAtacar = true;
