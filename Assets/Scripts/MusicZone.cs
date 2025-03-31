@@ -9,7 +9,7 @@ public class MusicZone : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Verifica si el objeto que entra es el personaje
         {
-            mainMusic.Pause();  // Pausa la música del mapa principal
+            mainMusic.Stop();    // Detiene la música principal
             areaMusic.Play();    // Activa la música del área azul
         }
     }
@@ -19,7 +19,7 @@ public class MusicZone : MonoBehaviour
         if (other.CompareTag("Player")) // Verifica si el objeto que sale es el personaje
         {
             areaMusic.Stop();    // Detiene la música del área azul
-            mainMusic.Play();    // Reanuda la música del mapa principal
+            mainMusic.Play();    // Reanuda la música principal
         }
     }
 }

@@ -5,7 +5,7 @@ using TMPro;
 public class NPCDialogue : MonoBehaviour
 {
     [SerializeField] private GameObject dialoguePanel;
-    [SerializeField] private GameObject emptyObject;  // Nueva referencia al objeto empty
+    [SerializeField] private GameObject emptyObject;  // Objeto vacío opcional
     [SerializeField] private AudioClip npcVoice;
     [SerializeField] private float typingTime = 0.05f;
     [SerializeField] private int timeChatSong = 3;
@@ -18,6 +18,7 @@ public class NPCDialogue : MonoBehaviour
     private AudioSource audioSource;
     private CharacterController characterController;
     private BoxCollider2D boxCollider;
+    private Rigidbody2D playerRb;  // Referencia al Rigidbody2D del jugador
 
     private void Start()
     {
@@ -50,6 +51,7 @@ public class NPCDialogue : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !didDialogueStart)
         {
             isPlayerInRange = true;
+            playerRb = collision.GetComponent<Rigidbody2D>(); // Obtener el Rigidbody2D del jugador
             StartDialogue();
         }
     }
@@ -68,8 +70,15 @@ public class NPCDialogue : MonoBehaviour
         dialoguePanel.SetActive(true);
         lineIndex = 0;
 
-        if (characterController != null) characterController.enabled = false;  // Desactiva el CharacterController
-        if (emptyObject != null) emptyObject.SetActive(true);  // Activa el objeto empty
+        // Congelar el movimiento del jugador si tiene Rigidbody2D
+        if (playerRb != null)
+        {
+            playerRb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+        }
+
+        if (characterController != null) characterController.enabled = false;  
+        if (emptyObject != null) emptyObject.SetActive(true);  
+        
         StartCoroutine(ShowLine());
     }
 
@@ -90,14 +99,16 @@ public class NPCDialogue : MonoBehaviour
     {
         didDialogueStart = false;
         dialoguePanel.SetActive(false);
-        if (characterController != null) characterController.enabled = true;  // Reactiva el CharacterController
 
-        if (boxCollider != null)
+        // Descongelar el movimiento del jugador
+        if (playerRb != null)
         {
-            boxCollider.enabled = false;  // Desactiva el BoxCollider2D para evitar que vuelva a activarse
+            playerRb.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
 
-        if (emptyObject != null) emptyObject.SetActive(false);  // Desactiva el objeto empty
+        if (characterController != null) characterController.enabled = true;
+        if (boxCollider != null) boxCollider.enabled = false;  
+        if (emptyObject != null) emptyObject.SetActive(false);  
     }
 
     private IEnumerator ShowLine()
