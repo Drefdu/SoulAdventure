@@ -11,24 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Granja.unity
     guid: d8620637da35bb842b5817dcf3788d9a
-  - enabled: 0
-    path: Assets/Scenes/Inicio.unity
-    guid: 87362114c3214d649a8fac73f6bea3da
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
-    path: Assets/Scenes/Cola.unity
-    guid: 706d39b9c27f9dc4c8e1906e0a7edb07
-  - enabled: 1
-    path: Assets/Scenes/boss_figth_example.unity
-    guid: b141c99f012ee4a4dbbaf330e334a4a2
-  - enabled: 1
-    path: Assets/Scenes/Cueva.unity
-    guid: 2a047f3de4b1c0e41ad384ff07f935da
   - enabled: 1
     path: Assets/Scenes/Bosque.unity
     guid: 3fb1f6b4f6daf784cb89213d645d44d7
+  - enabled: 1
+    path: Assets/Scenes/Cueva.unity
+    guid: 2a047f3de4b1c0e41ad384ff07f935da
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
