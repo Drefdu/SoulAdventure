@@ -1,11 +1,14 @@
 using UnityEngine;
 using System.Collections;
 using Pathfinding;
+using System.Runtime.InteropServices.WindowsRuntime;
+using UnityEditor.Rendering;
+using UnityEngine.InputSystem.XR;
 
 public class ScareCrow : MonoBehaviour
 {
     public int damage = 10;
-    public float cooldownAtaque;
+    public float cooldownAtaque = 2f;
     public int health = 50;
     public AIPath aiPath;
     public float attackRange = 2f;
@@ -13,15 +16,16 @@ public class ScareCrow : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public GameObject weapon;
+    public Muros zonaControl;
 
     private GameObject attackArea = default;
-    private bool puedeAtacar = false;
+    private bool puedeAtacar = true;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Rigidbody2D rb;
     private Quaternion originalWeaponRotation;
 
-    private float attackAnimationDuration = 1.9f;
+    private float attackAnimationDuration = 0.5f;
 
     // Animaciones
     private string currentState = "Scarecrow_idle";
@@ -31,7 +35,7 @@ public class ScareCrow : MonoBehaviour
     // private string ANI_ATTACK = "Scarecrow_attack"; // Si tienes animación de ataque
 
     void Start()
-    {   
+    {
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -41,11 +45,12 @@ public class ScareCrow : MonoBehaviour
 
         currentHealth = maxHealth;
         healthBar.SetMaxHelth(maxHealth);
-
+        attackRange = 2f;
         attackArea.SetActive(false);
         handleAnimations(ANI_IDLE);
         aiPath.enabled = false;
-        Invoke("FollowPlayer", 2.5f);
+        puedeAtacar = false;
+        //Invoke("FollowPlayer", 2.5f);
     }
 
     void Update()
@@ -53,37 +58,38 @@ public class ScareCrow : MonoBehaviour
         // Manejo de dirección del enemigo
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else if (aiPath.desiredVelocity.x <= -0.01f)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
 
         float distanceToPlayer = Vector3.Distance(transform.position, aiPath.destination);
 
-        if (distanceToPlayer <= attackRange && puedeAtacar)
+        if ((distanceToPlayer <= attackRange) && (puedeAtacar))
         {
             // Si tienes animación de ataque, puedes usar:
             // handleAnimations(ANI_ATTACK);
-
+            if (!puedeAtacar)
+            {
+                return;
+            }
+            puedeAtacar = false;
+            handleAnimations(ANI_IDLE);
             attackArea.SetActive(true);
             aiPath.enabled = false;
             weapon.transform.Rotate(new Vector3(0, 0, -80));
-            handleAnimations(ANI_IDLE);
-            Invoke(nameof(EndAttack), attackAnimationDuration);
-            puedeAtacar = false;
-            Invoke(nameof(ReactivarAtaque), cooldownAtaque);
+            Invoke(nameof(EndAttack), 0.5f);
+            Invoke(nameof(FollowPlayer), 1.5f);
         }
     }
 
     private void EndAttack()
     {
         attackArea.SetActive(false);
+        puedeAtacar = false;
         weapon.transform.rotation = originalWeaponRotation;
-        aiPath.enabled = true;
-        handleAnimations(ANI_WALKING);
-        // handleAnimations(ANI_IDLE); // o volver a idle después del ataque
     }
 
     public void TakeDamage(int damage)
@@ -96,6 +102,7 @@ public class ScareCrow : MonoBehaviour
 
         if (health <= 0)
         {
+            zonaControl?.NotificarMuerteEnemigo(gameObject);
             Destroy(gameObject);
             //StartCoroutine(Die());
             return;
@@ -115,9 +122,9 @@ public class ScareCrow : MonoBehaviour
         currentState = newState;
     }
 
-    void FollowPlayer()
+    public void FollowPlayer()
     {
-        if (health <= 0) return;
+        if (health <= 0) { return; };
         handleAnimations(ANI_WALKING);
         aiPath.enabled = true;
         puedeAtacar = true;
@@ -131,40 +138,6 @@ public class ScareCrow : MonoBehaviour
         Destroy(gameObject);
     }
 
-    //private void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (attackArea.activeInHierarchy && other.CompareTag("Player"))
-    //    {
-    //        other.GetComponent<CharactertControler>().SetHit(damage);
-    //    }
-    //}
-
-    //private void OnCollisionEnter2D(Collision2D other)
-    //{
-    //    if (other.gameObject.CompareTag("Player"))
-    //    {
-    //        puedeAtacar = false;
-    //        handleAnimations(ANI_IDLE);
-    //        aiPath.enabled = false;
-
-    //        Color color = spriteRenderer.color;
-    //        color.a = 0.5f;
-    //        spriteRenderer.color = color;
-
-    //        other.gameObject.GetComponent<CharactertControler>().SetHit(damage);
-    //    }
-
-    //    Invoke(nameof(ReactivarAtaque), cooldownAtaque);
-    //}
-
-    void ReactivarAtaque()
-    {
-        puedeAtacar = true;
-        aiPath.enabled = true;
-        Color color = spriteRenderer.color;
-        color.a = 1f;
-        spriteRenderer.color = color;
-    }
 
     void OnDrawGizmosSelected()
     {
