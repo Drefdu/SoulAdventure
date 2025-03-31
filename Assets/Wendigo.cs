@@ -10,9 +10,9 @@ public class Wendigo : MonoBehaviour
     public int damage = 10;
     public float cooldownAtaque = 2f;
     public AIPath aiPath;
-    public float attackRange = 2f;
+    public float attackRange = 5f;
     public int maxHealth = 100;
-    public int currentHealth;
+    public int currentHealth = 100;
     public HealthBar healthBar;
     public Muros zonaControl;
 
@@ -21,9 +21,6 @@ public class Wendigo : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Rigidbody2D rb;
-    private Quaternion originalWeaponRotation;
-
-    private float attackAnimationDuration = 0.5f;
 
     // Animaciones
     private string currentState = "Wendigo_idle";
@@ -42,12 +39,12 @@ public class Wendigo : MonoBehaviour
 
         currentHealth = maxHealth;
         healthBar.SetMaxHelth(maxHealth);
-        attackRange = 2f;
+        attackRange = 3f;
         attackArea.SetActive(false);
         handleAnimations(ANI_IDLE);
         aiPath.enabled = false;
         puedeAtacar = false;
-        Invoke("FollowPlayer", 2.5f);
+        //Invoke("FollowPlayer", 2.5f);
     }
 
     void Update()
@@ -56,22 +53,24 @@ public class Wendigo : MonoBehaviour
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
-
         }
         else if (aiPath.desiredVelocity.x <= -0.01f)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-1f, 1f, 1f);   
         }
 
         float distanceToPlayer = Vector3.Distance(transform.position, aiPath.destination);
 
         if ((distanceToPlayer <= attackRange) && (puedeAtacar))
         {
+
+            Debug.Log("atacandoooo");
             if (!puedeAtacar)
             {
                 return;
             }
             puedeAtacar = false;
+            
             handleAnimations(ANI_ATTACK);
             attackArea.SetActive(true);
             aiPath.enabled = false;
@@ -132,9 +131,9 @@ public class Wendigo : MonoBehaviour
     public void FollowPlayer()
     {
         if (currentHealth <= 0) { return; };
-        handleAnimations(ANI_WALKING);
-        aiPath.enabled = true;
         puedeAtacar = true;
+        handleAnimations(ANI_WALKING);
+        aiPath.enabled = true;    
     }
 
     IEnumerator Die()

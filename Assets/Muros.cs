@@ -40,6 +40,18 @@ public class Muros : MonoBehaviour
                         scareCrowScript.FollowPlayer();
                     }
 
+                    Magician magicianScript = enemigo.GetComponent<Magician>();
+                    if (magicianScript != null)
+                    {
+                        magicianScript.FollowPlayer();
+                    }
+
+                    Wendigo wendigoScript = enemigo.GetComponent<Wendigo>();
+                    if (wendigoScript != null)
+                    {
+                        wendigoScript.FollowPlayer();
+                    }
+
                 }
             }
 
@@ -116,6 +128,12 @@ public class Muros : MonoBehaviour
                 if (magicianScript != null)
                 {
                     magicianScript.zonaControl = this;
+                }
+
+                Wendigo wendigoScript = enemigo.GetComponent<Wendigo>();
+                if (wendigoScript != null)
+                {
+                    wendigoScript.zonaControl = this;
                 }
             }
         }
