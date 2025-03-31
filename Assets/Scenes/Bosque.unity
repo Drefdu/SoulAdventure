@@ -1217,7 +1217,7 @@ Transform:
   m_GameObject: {fileID: 99948144}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.63, y: -0.14, z: 0}
+  m_LocalPosition: {x: -0.58, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86338,6 +86338,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: enemies.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
       propertyPath: 'muros.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
@@ -87561,6 +87565,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: enemies.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: 'muros.Array.data[0]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: 'muros.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: 'enemies.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8397320079326842394, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
       propertyPath: target
       value: 
@@ -87889,6 +87909,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+      propertyPath: enemies.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483969802990056114, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
       propertyPath: 'muros.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
@@ -87946,6 +87970,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1acbdbaa53049d04fb427b2bb9b20546, type: 3}
+--- !u!4 &1521333140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8506288712702642773, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
+  m_PrefabInstance: {fileID: 1658623680}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1566882518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88103,7 +88132,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2003356233}
     m_Modifications:
     - target: {fileID: 180558727200563673, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
       propertyPath: m_SortingOrder
@@ -88178,12 +88207,16 @@ PrefabInstance:
       value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8506288712702642773, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0625001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506288712702642773, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73.5
+      value: 18.576183
       objectReference: {fileID: 0}
     - target: {fileID: 8506288712702642773, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.48
+      value: -12.553211
       objectReference: {fileID: 0}
     - target: {fileID: 8506288712702642773, guid: 13c2e5c51a7def94cbda6ff0e4e9a763, type: 3}
       propertyPath: m_LocalPosition.z
@@ -88949,6 +88982,7 @@ Transform:
   m_Children:
   - {fileID: 99948145}
   - {fileID: 981097028}
+  - {fileID: 1521333140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2003356234
@@ -99316,7 +99350,6 @@ SceneRoots:
   - {fileID: 1797386616}
   - {fileID: 2003356233}
   - {fileID: 1317517851}
-  - {fileID: 1658623680}
   - {fileID: 978159200}
   - {fileID: 423367729}
   - {fileID: 132539786}
