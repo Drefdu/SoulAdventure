@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Pathfinding;
-using UnityEngine.InputSystem.XR;
 
 public class Enemy : MonoBehaviour
 {
@@ -17,12 +16,13 @@ public class Enemy : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
+    public EnemyHealthBar healthBar; // ← Asigna esto desde el Inspector
+    private int maxHealth;
 
     private string currentState = "Slime_idle";
 
     private string SLIME_DAMAGE = "Slime_damage";
     private string SLIME_IDLE = "Slime_idle";
-
 
     void Start()
     {
@@ -30,9 +30,13 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         aiPath.enabled = false;
         puedeAtacar = true;
+
+        maxHealth = health;
+
+        if (healthBar != null)
+            healthBar.SetHealth(1f); // barra llena al inicio
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (aiPath.desiredVelocity.x >= 0.01f)
@@ -47,8 +51,13 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isTakingDamage) { return; }
+        if (isTakingDamage) return;
+
         health -= damage;
+
+        if (healthBar != null)
+            healthBar.SetHealth((float)health / maxHealth); // actualiza la barra
+
         handleAnimations(SLIME_DAMAGE);
         aiPath.enabled = false;
         Invoke("ResolveHealth", 0.5f);
@@ -56,7 +65,6 @@ public class Enemy : MonoBehaviour
 
     private void ResolveHealth()
     {
-
         if (health <= 0)
         {
             Die();
@@ -71,6 +79,9 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        // Si prefieres ocultar la barra en lugar de destruirla directamente:
+        // if (healthBar != null) healthBar.gameObject.SetActive(false);
+
         zonaControl?.NotificarMuerteEnemigo(gameObject);
         Destroy(gameObject);
     }
@@ -79,8 +90,8 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (!puedeAtacar) return;
 
-            if (!puedeAtacar) { return; }
             puedeAtacar = false;
             aiPath.enabled = false;
 
@@ -89,15 +100,16 @@ public class Enemy : MonoBehaviour
             spriteRenderer.color = color;
 
             other.gameObject.GetComponent<CharactertControler>().SetHit(damage);
-        }
 
-        Invoke("ReactivarAtaque", cooldownAtaque);
+            Invoke("ReactivarAtaque", cooldownAtaque);
+        }
     }
 
     void ReactivarAtaque()
     {
         puedeAtacar = true;
         aiPath.enabled = true;
+
         Color color = spriteRenderer.color;
         color.a = 1f;
         spriteRenderer.color = color;
@@ -108,7 +120,6 @@ public class Enemy : MonoBehaviour
         if (currentState == newState) return;
 
         animator.Play(newState);
-
         currentState = newState;
     }
 
