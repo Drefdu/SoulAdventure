@@ -14,6 +14,7 @@
         public int currentHealth;
         public Muros zonaControl;
         public HealthBar healthBar;
+        public bool startToAtack = false;
 
 
         private GameObject attackArea = default;
@@ -74,7 +75,7 @@
             }
 
             // Verifica si debe ejecutar el ataque de proyectiles
-            if (PuedeDisparar() && newShoot)
+            if ((PuedeDisparar() && newShoot) && startToAtack)
             {
                 StartCoroutine(AtaqueProyectiles());
                 return;
@@ -115,19 +116,19 @@
         }
 
         IEnumerator Die()
-{
-    aiPath.enabled = false;
-    puedeAtacar = false;
+        {
+            aiPath.enabled = false;
+            puedeAtacar = false;
 
-    // 👉 Desactivar muros si se ha asignado el controlador
-    if (murosController != null)
-    {
-        murosController.DesactivarMuros();
-    }
+            // 👉 Desactivar muros si se ha asignado el controlador
+            if (murosController != null)
+            {
+                murosController.DesactivarMuros();
+            }
 
-    yield return new WaitForSeconds(2f);
-    Destroy(gameObject);
-}
+            yield return new WaitForSeconds(2f);
+            Destroy(gameObject);
+        }
 
 
         private void OnCollisionEnter2D(Collision2D other)
@@ -177,6 +178,7 @@
             handleAnimations(ANI_WALKING);
             aiPath.enabled = true;
             puedeAtacar = true;
+            startToAtack = true;
         }
 
         void AtackOneLighting()
