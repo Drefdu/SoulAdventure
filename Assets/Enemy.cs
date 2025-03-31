@@ -34,7 +34,9 @@ public class Enemy : MonoBehaviour
         maxHealth = health;
 
         if (healthBar != null)
-            healthBar.SetHealth(1f); // barra llena al inicio
+        {
+            healthBar.SetHealth(1f);
+        }
     }
 
     void Update()
