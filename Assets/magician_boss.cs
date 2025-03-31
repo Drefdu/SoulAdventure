@@ -8,11 +8,11 @@
     {
         public int damage = 10;
         public float cooldownAtaque;
-        public int health = 50;
         public AIPath aiPath;
         public float attackRange = 4f;
         public int maxHealth = 50;
         public int currentHealth;
+        public Muros zonaControl;
         public HealthBar healthBar;
 
 
@@ -51,13 +51,13 @@
             attackArea.SetActive(false);
             handleAnimations(ANI_IDLE);
             aiPath.enabled = false;
-            Invoke("FollowPlayer", 2.5f);
+            //Invoke("FollowPlayer", 2.5f);
         }
 
         void Update()
         {
 
-            if (health <= 0)
+            if (currentHealth <= 0)
             {
                 aiPath.enabled = false;
                 return;
@@ -96,12 +96,11 @@
 
         public void TakeDamage(int damage)
         {
-            health -= damage;
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
             aiPath.enabled = false;
             puedeAtacar = false;
-            if (health <= 0)
+            if (currentHealth <= 0)
             {
                 handleAnimations(ANI_DIE);
                 StartCoroutine(Die());
@@ -169,9 +168,12 @@
 
         //Ataques
 
-        void FollowPlayer()
+        public void FollowPlayer()
         {
-            if (health <= 0) return;
+            if (currentHealth <= 0)
+            {
+                return;
+            }
             handleAnimations(ANI_WALKING);
             aiPath.enabled = true;
             puedeAtacar = true;
@@ -225,9 +227,14 @@
             }
         }
 
+        public void ActivateMovement()
+        {
+            aiPath.enabled = true;
+        }
+
         IEnumerator AtaqueProyectiles()
         {
-            if (health <= 0)
+            if (currentHealth <= 0)
             {
                 yield break;
             } else
