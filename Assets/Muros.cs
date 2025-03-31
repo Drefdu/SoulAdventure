@@ -111,6 +111,12 @@ public class Muros : MonoBehaviour
                 {
                     scareCrowScript.zonaControl = this;
                 }
+
+                Magician magicianScript = enemigo.GetComponent<Magician>();
+                if (magicianScript != null)
+                {
+                    magicianScript.zonaControl = this;
+                }
             }
         }
     }
