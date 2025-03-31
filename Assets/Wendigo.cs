@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using Pathfinding;
 using System.Runtime.InteropServices.WindowsRuntime;
-using UnityEditor.Rendering;
 using UnityEngine.InputSystem.XR;
 
 public class Wendigo : MonoBehaviour
@@ -49,7 +48,7 @@ public class Wendigo : MonoBehaviour
 
     void Update()
     {
-        // Manejo de dirección del enemigo
+        // Manejo de direcciï¿½n del enemigo
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);

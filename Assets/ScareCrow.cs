@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using Pathfinding;
 using System.Runtime.InteropServices.WindowsRuntime;
-using UnityEditor.Rendering;
 using UnityEngine.InputSystem.XR;
 
 public class ScareCrow : MonoBehaviour
@@ -30,7 +29,7 @@ public class ScareCrow : MonoBehaviour
     private string ANI_DAMAGE = "Scarecrow_damage";
     private string ANI_IDLE = "Scarecrow_idle";
     private string ANI_WALKING = "Scarecrow_walking";
-    // private string ANI_ATTACK = "Scarecrow_attack"; // Si tienes animación de ataque
+    // private string ANI_ATTACK = "Scarecrow_attack"; // Si tienes animaciï¿½n de ataque
 
     void Start()
     {
@@ -53,7 +52,7 @@ public class ScareCrow : MonoBehaviour
 
     void Update()
     {
-        // Manejo de dirección del enemigo
+        // Manejo de direcciï¿½n del enemigo
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
@@ -67,7 +66,7 @@ public class ScareCrow : MonoBehaviour
 
         if ((distanceToPlayer <= attackRange) && (puedeAtacar))
         {
-            // Si tienes animación de ataque, puedes usar:
+            // Si tienes animaciï¿½n de ataque, puedes usar:
             // handleAnimations(ANI_ATTACK);
             if (!puedeAtacar)
             {
