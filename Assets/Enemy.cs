@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Pathfinding;
+using UnityEngine.InputSystem.XR;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,13 +10,12 @@ public class Enemy : MonoBehaviour
     public float cooldownAtaque;
     public int health = 30;
     public AIPath aiPath;
-
-    private bool puedeAtacar = true;
+    public Muros zonaControl;
+    public bool puedeAtacar = true;
+    public bool isTakingDamage = false;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Rigidbody2D rb;
-
-    
 
 
     private string currentState = "Slime_idle";
@@ -28,16 +28,18 @@ public class Enemy : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        aiPath.enabled = false;
+        puedeAtacar = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-       if(aiPath.desiredVelocity.x >= 0.01f)
+        if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
-       else if (aiPath.desiredVelocity.x  <= -0.01f)
+        else if (aiPath.desiredVelocity.x <= -0.01f)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
@@ -45,6 +47,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isTakingDamage) { return; }
         health -= damage;
         handleAnimations(SLIME_DAMAGE);
         aiPath.enabled = false;
@@ -53,30 +56,35 @@ public class Enemy : MonoBehaviour
 
     private void ResolveHealth()
     {
-        
+
         if (health <= 0)
         {
             Die();
-        } 
+        }
         else
         {
             aiPath.enabled = true;
+            isTakingDamage = false;
             handleAnimations(SLIME_IDLE);
         }
     }
 
     private void Die()
     {
-        Destroy(gameObject); 
+        zonaControl?.NotificarMuerteEnemigo(gameObject);
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player")){
+        if (other.gameObject.CompareTag("Player"))
+        {
+
+            if (!puedeAtacar) { return; }
             puedeAtacar = false;
             aiPath.enabled = false;
 
-            Color color  = spriteRenderer.color;
+            Color color = spriteRenderer.color;
             color.a = 0.5f;
             spriteRenderer.color = color;
 
@@ -102,5 +110,10 @@ public class Enemy : MonoBehaviour
         animator.Play(newState);
 
         currentState = newState;
+    }
+
+    public void ActivateMovement()
+    {
+        aiPath.enabled = true;
     }
 }

@@ -7,10 +7,13 @@ public class Muros : MonoBehaviour
     private bool murosActivados = false; // Evita múltiples activaciones
     private BoxCollider2D boxCollider; // Referencia al BoxCollider2D
 
+    public List<GameObject> enemies;
+
     private void Start()
     {
         // Obtiene el componente BoxCollider2D automáticamente
         boxCollider = GetComponent<BoxCollider2D>();
+        setEnemies();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -18,6 +21,26 @@ public class Muros : MonoBehaviour
         if (other.CompareTag("Player") && !murosActivados)
         {
             Debug.Log("🚀 Player ha activado los muros.");
+
+            foreach (GameObject enemigo in enemies)
+            {
+                if (enemigo != null)
+                {
+                    Enemy enemyScript = enemigo.GetComponent<Enemy>();
+                    if (enemyScript != null)
+                    {
+                        enemyScript.ActivateMovement();
+                    }
+
+                    ScareCrow scareCrowScript = enemigo.GetComponent<ScareCrow>();
+                    if (scareCrowScript != null)
+                    {
+                        scareCrowScript.FollowPlayer();
+                    }
+
+                }
+            }
+
             ActivarMuros();
             murosActivados = true; // Evita que se active más de una vez
         }
@@ -55,6 +78,38 @@ public class Muros : MonoBehaviour
         {
             boxCollider.enabled = false;
             Debug.Log("🛑 BoxCollider2D desactivado.");
+        }
+    }
+
+    public void NotificarMuerteEnemigo(GameObject enemigo)
+    {
+        enemies.Remove(enemigo);
+        if (enemies.Count <= 0)
+        {
+            Debug.Log($"✅ Todos los enemigos de la zona {gameObject.name} han sido derrotados.");
+            DesactivarMuros();
+
+        }
+    }
+
+    private void setEnemies()
+    {
+        foreach (GameObject enemigo in enemies)
+        {
+            if (enemigo != null)
+            {
+                Enemy enemyScript = enemigo.GetComponent<Enemy>();
+                if (enemyScript != null)
+                {
+                    enemyScript.zonaControl = this;
+                }
+
+                ScareCrow scareCrowScript = enemigo.GetComponent<ScareCrow>();
+                if (scareCrowScript != null)
+                {
+                    scareCrowScript.zonaControl = this;
+                }
+            }
         }
     }
 }
