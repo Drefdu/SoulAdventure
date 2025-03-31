@@ -26,9 +26,11 @@ public class Muros : MonoBehaviour
             {
                 if (enemigo != null)
                 {
+                    Debug.Log("enemies");
                     Enemy enemyScript = enemigo.GetComponent<Enemy>();
                     if (enemyScript != null)
                     {
+                        Debug.Log("activar movimiento");
                         enemyScript.ActivateMovement();
                     }
 

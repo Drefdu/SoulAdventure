@@ -34,5 +34,10 @@ public class weaponAtack : MonoBehaviour
         {
             collision.gameObject.GetComponent<ScareCrow>().TakeDamage(damage);
         }
+
+        if (collision.gameObject.CompareTag("Wendigo"))
+        {
+            collision.gameObject.GetComponent<Wendigo>().TakeDamage(damage);
+        }
     }
 }
