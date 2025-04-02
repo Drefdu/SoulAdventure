@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu_inicial.unity
     guid: 6d680f2172fc2ec48ba95562cd91cb1f
   - enabled: 1
@@ -21,5 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Cinematica_final.unity
     guid: 19b81539924b5e64c9cf945d79b7f6ec
   m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f8a69c8bd0d58584493bb8865bc3741e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

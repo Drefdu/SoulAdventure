@@ -21,7 +21,8 @@ public class CharactertControler : MonoBehaviour
     private float attackCooldown = 0.2f;
     private float attackTimer = 0f;
     private bool puedeMoverse = true;
-    
+
+
     private GameOver gameOverMenu;
 
     private string currentState = "Player_idle";
@@ -65,7 +66,7 @@ public class CharactertControler : MonoBehaviour
         {
             attackTimer += Time.deltaTime;
             ProcesarMovimiento();
-            if (attackTimer >= attackCooldown && Input.GetKeyDown(KeyCode.Space))
+            if (attackTimer >= attackCooldown && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1")))
             {
                 Attack();
             }
