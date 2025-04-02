@@ -15,7 +15,7 @@ public class GolpePersonaje : MonoBehaviour
     void Update()
     {
         // Verificar si la tecla espacio fue presionada
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.JoystickButton0))
         {
             // Verificar si el GameObject que controlamos está desactivado
             if (objectControl != null && !objectControl.activeSelf)

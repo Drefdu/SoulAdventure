@@ -29,12 +29,31 @@ public class GameOver : MonoBehaviour
     public void ReiniciarNivel()
     {
         Time.timeScale = 1f; // Reactiva el juego
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reinicia el nivel actual
     }
 
     public void IrAlMenu()
     {
         Time.timeScale = 1f; // Reactiva el juego
         SceneManager.LoadScene(0); // Carga la escena con índice 0 (Menú Principal)
+    }
+
+    private void Update()
+    {
+        // Verifica si el Game Over Menu está activo
+        if (gameOverMenu.activeSelf)
+        {
+            // Verifica si se presiona el botón 2 para reiniciar el nivel
+            if (Input.GetKeyDown(KeyCode.JoystickButton2))
+            {
+                ReiniciarNivel();
+            }
+
+            // Verifica si se presiona el botón 3 para ir al menú principal
+            if (Input.GetKeyDown(KeyCode.JoystickButton3))
+            {
+                IrAlMenu();
+            }
+        }
     }
 }
