@@ -65,7 +65,7 @@ public class CharactertControler : MonoBehaviour
         {
             attackTimer += Time.deltaTime;
             ProcesarMovimiento();
-            if (attackTimer >= attackCooldown && Input.GetKeyDown(KeyCode.Space))
+            if (attackTimer >= attackCooldown && Input.GetKeyDown(KeyCode.Space) || attackTimer >= attackCooldown && Input.GetKeyDown(KeyCode.JoystickButton0))
             {
                 Attack();
             }

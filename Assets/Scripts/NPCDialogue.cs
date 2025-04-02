@@ -29,7 +29,7 @@ public class NPCDialogue : MonoBehaviour
 
     private void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space) || isPlayerInRange && Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             if (didDialogueStart)
             {
