@@ -618,6 +618,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 114
       objectReference: {fileID: 0}
+    - target: {fileID: 6075560766080094260, guid: d5f4140e33dab0940a62ab92d5405b2a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6143942432061255594, guid: d5f4140e33dab0940a62ab92d5405b2a, type: 3}
       propertyPath: m_margin.w
       value: 41.058067
