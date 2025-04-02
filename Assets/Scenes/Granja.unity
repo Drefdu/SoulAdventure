@@ -2828,6 +2828,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9193159058190947691, guid: d5f4140e33dab0940a62ab92d5405b2a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3078088163017943204, guid: d5f4140e33dab0940a62ab92d5405b2a, type: 3}

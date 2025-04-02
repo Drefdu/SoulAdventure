@@ -1868,6 +1868,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49efbbdf431a39441a8910bdf1348b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel1: {fileID: 2066113977}
+  panel2: {fileID: 505575204}
+  botonSeleccionado: {fileID: 662632673}
 --- !u!114 &1796925325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,6 +1884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 9b46089fd2c25204597245c0ac4d43f0, type: 2}
+  velocidadCambio: 10
 --- !u!1 &1806947579
 GameObject:
   m_ObjectHideFlags: 0

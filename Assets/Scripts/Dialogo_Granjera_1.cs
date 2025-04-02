@@ -30,7 +30,7 @@ public class Dialogo_Granjera_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space) || isPlayerInRange && Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             if (!didDialogoStart)
             {
